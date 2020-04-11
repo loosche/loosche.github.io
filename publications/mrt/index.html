@@ -1,0 +1,117 @@
+<!--
+Design by Bryant Smith
+http://www.bryantsmith.com
+http://www.aszx.net
+email: templates [-at-] bryantsmith [-dot-] com
+Released under Creative Commons Attribution 2.5 Generic.  In other words, do with it what you please; but please leave the link if you'd be so kind :)
+
+Name       : A Farewell to Colors
+Description: One column, with top naviagation
+Version    : 1.0
+Released   : 20081230
+-->
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<base href="file:///C:/Users/loos/Desktop/website/" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/afarewelltocolor.css" />
+		<link rel="stylesheet" type="text/css" href="css/resume.css" />
+		<title>Bradford James Loos</title>
+	</head>
+
+	<body>
+		<div id="page">
+
+		<div id="header">
+			<h1>Bradford J. Loos</h1>
+			<h2>Computer Graphics and Visualization PhD</h2>
+			<div id="contact">
+			</div>
+		</div>
+
+		<div id="bar">
+			<div class="link"><a href="index.shtml">publications</a></div>
+			<div class="link"><a href="resume/resume.shtml">resume</a></div>
+			<div class="contactLinks">
+				<img src="images/aim.png" title="bradfordjloos on AIM"/>
+				<img src="images/msn.png" title="bradfordjamesloos on MSN"/>
+				<img src="images/yahoo.png" title="bradfordjamesloos on Yahoo"/>
+				<img src="images/gtalk.png" title="bradfordjamesloos on GTalk"/>
+				<img src="images/twitter.png" title="loosche"/>
+			</div>
+		</div>
+
+
+	<div class="individualPublication">
+		<h1>Modular Radiance Transfer</h1>
+
+		<br/>
+
+		<div class="teaser" align="center">
+			<div class="figure">	
+				<a href="publications/mrt/teaserDirectBig.png">
+					<img src="publications/mrt/teaserDirectSmall.png" />
+				</a>
+				<p>Direct Lighting</p>
+			</div>
+			<div class="figure">
+				<a href="publications/mrt/teaserIndirectDirectBig.png">
+					<img src="publications/mrt/teaserIndirectDirectSmall.png" />
+				</a>
+				<p>Modular Radiance Transfer<br/>(Indirect: 2.1ms)</p>
+			</div>
+			<div class="figure">
+				<a href="publications/mrt/teaserIndirectDirectTruthBig.png">
+					<img src="publications/mrt/teaserIndirectDirectTruthSmall.png" />
+				</a>
+				<p>Path Traced Ground Truth</p>
+			</div>
+		</div>
+
+		<br/>
+
+		<div class="links">
+			<a href="publications/mrt/mrt.pdf"><span class="pdfLink">Paper</span></a> (23.3 MB) &#149;
+			<a href="publications/mrt/mrt.mp4"><span class="vlcLink">Movie</span></a> (57.6 MB) &#149;
+			<a href="publications/mrt/mrt-presentation.zip"><span class="pptLink">PPT</span></a> &#149;
+			<a href="http://www.youtube.com/watch?v=3Kyj3NJ1pjQ"><span class="youtubeLink">Youtube</span></a>  &#149;
+			<span class="popupLink" onClick="javascript:window.open('/~loos/publications/mrt/mrt.txt','BibTex','width=1000,height=170')">BibTex</span>
+		</div>
+
+		<br/>
+
+		<h4>Abstract:</h4>
+		<p class="abstract">
+			Many rendering algorithms willingly sacrifice accuracy, favoring
+			plausible shading with high-performance. Modular Radiance Transfer (MRT)
+			models coarse-scale, distant indirect lighting effects in scene geometry
+			that scales from high-end GPUs to low-end mobile platforms. MRT
+			eliminates scene-dependent precomputation by storing compact transport on
+			simple shapes, akin to bounce cards used in film production. These
+			shapes. modular transport can be instanced, warped and connected
+			on-the-fly to yield approximate light transport in large scenes. We
+			introduce a prior on incident lighting distributions and perform all
+			computations in low-dimensional subspaces.  An implicit lighting
+			environment induced from the low-rank approximations is in turn used to
+			model secondary effects, such as volumetric transport variation,
+			higher-order irradiance, and transport through lightfields. MRT is a new
+			approach to precomputed lighting that uses a novel low-dimensional
+			subspace simulation of light transport to uniquely balance the need for
+			high-performance and portable solutions, low memory usage, and fast
+			authoring iteration.
+		</p>
+
+	</div>
+
+
+		<div class="contentText"></div>  
+		</div>
+		<div id="footer">Original theme by <a href="http://www.bryantsmith.com">bryant smith</a> 
+		</div>
+	</body>
+</html>
+
+

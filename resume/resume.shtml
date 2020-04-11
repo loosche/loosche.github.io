@@ -1,0 +1,421 @@
+<!--
+Design by Bryant Smith
+http://www.bryantsmith.com
+http://www.aszx.net
+email: templates [-at-] bryantsmith [-dot-] com
+Released under Creative Commons Attribution 2.5 Generic.  In other words, do with it what you please; but please leave the link if you'd be so kind :)
+
+Name       : A Farewell to Colors
+Description: One column, with top naviagation
+Version    : 1.0
+Released   : 20081230
+-->
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<base href="file:///C:/Users/loos/Desktop/website/" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/afarewelltocolor.css" />
+		<link rel="stylesheet" type="text/css" href="css/resume.css" />
+		<title>Bradford James Loos</title>
+	</head>
+
+	<body>
+		<div id="page">
+
+		<div id="header">
+			<h1>Bradford J. Loos</h1>
+			<h2>Computer Graphics and Visualization PhD</h2>
+			<div id="contact">
+			</div>
+		</div>
+
+		<div id="bar">
+			<div class="link"><a href="index.shtml">publications</a></div>
+			<div class="link"><a href="resume/resume.shtml">resume</a></div>
+			<div class="contactLinks">
+				<img src="images/aim.png" title="bradfordjloos on AIM"/>
+				<img src="images/msn.png" title="bradfordjamesloos on MSN"/>
+				<img src="images/yahoo.png" title="bradfordjamesloos on Yahoo"/>
+				<img src="images/gtalk.png" title="bradfordjamesloos on GTalk"/>
+				<img src="images/twitter.png" title="loosche"/>
+			</div>
+		</div>
+
+
+
+	<div class="resume">
+		<div class="sectionTitle">Skills</div>
+
+		<ul>
+			<li>Knowledge of Rendering Algorithms</li>
+			<li>Strong communication and writing skills</li>
+			<li>Experience in modification, performance analysis, and testing code</li>
+			<li>Proficient in D3D11, D3D12, Vulkan</li>
+			<li>Experienced in Console & PC Development</li>
+		</ul>
+
+		<div class="sectionTitle">Employment</div>
+	
+		<div class="job">
+			<span class="title">Graphics Programmer</span>
+			<span class="date">Jan 2012 - Present</span>
+			<span class="company"><a href="http://bungie.net">Bungie Inc</a></span>
+			<span class="city">Bellevue, WA</span>
+			<div class="description">
+				Working as a graphics programmer on the Destiny franchise. Responsible
+				for implementation, performance analysis, and testing of all rendering
+				systems on multiple platforms.
+			</div>
+			<div class="primary_skills_title">Primary Skills Applied</div>
+			<div class="primary_skills">
+				<ul>
+					<li>Rendering Algorithm Development</li>
+					<li>D3D11, D3D12, Vulkan</li>
+					<li>Shader Writing (HLSL/PSSL)</li>
+					<li>C/C++</li>
+				</ul>	
+			</div>	
+			<div class="primary_skills_title">Shipped Games</div>
+			<div class="primary_skills">
+				<ul>
+					<li>Destiny</li>
+					<li>Destiny 2</li>
+				</ul>	
+			</div>	
+		</div>
+
+		<div class="job">
+			<span class="title">Graduate Associate</span>
+			<span class="date">Mar 2009 - Nov 2011</span>
+			<span class="company"><a href="http://disney.go.com/disneyinteractivestudios">Disney Interactive Studios</a></span>
+			<span class="city">Salt Lake City, UT</span>
+			<div class="description">
+				Working as a PhD student researcher under my advisor <a
+				href="http://www.ppsloan.org/publications">Peter-Pike Sloan</a>.  We
+				work on real-time lighting techniques for games and have published
+				papers on <a href="publications/vo/index.html">Volumetric Obscurance</a> at i3D
+				2010, and <a href="publications/mrt/index.html">Modular Radiance Transfer</a> with
+				a sketch at Siggraph 2011 and a paper on <a href="publications/drt/index.html">
+				Delta Radiance Transfer</a> at Siggraph Asia 2011.
+			</div>
+			<div class="primary_skills_title">Primary Skills Applied</div>
+			<div class="primary_skills">
+				<ul>
+					<li>Rendering Algorithm Development</li>
+					<li>DirectX</li>
+					<li>Shader Writing (HLSL)</li>
+					<li>C/C++</li>
+				</ul>	
+			</div>	
+		</div>
+
+		<div class="job">
+			<span class="title">Software Intern</span>
+			<span class="date">May 2010 - Aug 2010</span><br/>
+			<span class="company">Black Rock Studios</span>
+			<span class="city">Brighton, Sussex, England</span>
+			<div class="description">
+				Worked under <a href="http://www.twitter.com/#!/farpeek">Kenny
+				Mitchell</a> as a summer intern at the now defunct <a
+				href="http://en.wikipedia.org/wiki/Black_Rock_Studio">Black Rock
+				Studios</a>. While there I implemented a version of <a
+				href="publications/mrt">Modular Radiance Transfer</a> into their
+				in-house animation tool, Tomcat. The video game scenes in our <a
+				href="publications/mrt/mrt.pdf">Siggraph Asia 2011</a> were created
+				using my additions to that software.
+			</div>
+			<div class="primary_skills_title">Primary Skills Applied</div>
+			<div class="primary_skills">
+				<ul>
+					<li>Rendering Algorithms</li>
+					<li>C/C++</li>
+				</ul>	
+			</div>	
+		</div>
+
+		<div class="job">
+			<span class="title">Software Intern</span>
+			<span class="date">May 2009 - Aug 2009</span><br/>
+			<span class="company"><a href="http://www.rhythm.com">Rhythm & Hues</a></span>
+			<span class="city">Marina Del Ray, CA</span>
+			<div class="description">
+				Worked under Nathan Cournia at the film studio <a
+				href="http://www.rhythm.com">Rhythm & Hues</a> implementing a variation
+				on <a href="http://graphics.stanford.edu/papers/deepshadows">deep shadow
+				maps</a> (DSMs) using the GPU. The implemenation was written in GLSL as
+				a set of shaders to be used in their proprietary animation system
+				Voodoo. The DSM shaders allowed the artists to see shadow changes in
+				real-time, instead of having to send their assets through the rendering
+				pipeline. I also interfaced the DSM code with a simplified version of
+				their fur shaders to assist with character visualization.
+			</div>
+			<div class="primary_skills_title">Primary Skills Applied</div>
+			<div class="primary_skills">
+				<ul>
+					<li>Shader Writing (GLSL)</li>
+					<li>C/C++</li>
+				</ul>	
+			</div>	
+		</div>
+
+
+		<div class="job">
+			<span class="title">Student Researcher</span>
+			<span class="date">Nov 2008 - Jan 2009</span>
+			<span class="company"><a href="http://www.inria.fr/centre/rennes">INRIA</a></span>
+			<span class="city">Rennes, FR</span>
+			<div class="description">
+				Worked as a researcher under <a
+				href="http://www.irisa.fr/bunraku/Kadi.Bouatouch/">Kadi Bouatouch</a>
+				along with <a href="http://jonathanbrouillat.net">Jonathan Brouillat</a>
+				and <a href="http://perso.rd.francetelecom.fr/bouville">Christian
+				Bouville</a> developing a new global illumination sampling technique for
+				ray tracing.  Helped develop Bayesian integration techniques for global
+				illumination by performing experiments using Matlab and proprietary
+				rendering engines. These techniques were published in a <a
+				href="publications/bayesian">paper</a> published in <a
+				href="http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1467-8659">Computer
+				Graphics Forum</a>.
+			</div>
+		  	<div class="primary_skills_title">Primary Skills Applied</div>
+			<div class="primary_skills">
+				<ul>
+					<li>Matlab</li>
+					<li>C/C++</li>
+				</ul>	
+			</div>	
+		</div>
+
+		<div class="job">
+			<span class="title">Software Engineering (Intern)</span>
+			<span class="date">May 2008 - Sept 2008</span>
+			<span class="company"><a href="http://www.nvidia.com">NVIDIA</a></span>
+			<span class="city">Austin, TX</span>
+			<div class="description">
+				Worked as a software engineer under <a
+				href="http://en.wikipedia.org/wiki/Mark_Kilgard">Mark Kilgard</a> to
+				create a regression performance testing suite for the <a
+				href="http://developer.nvidia.com/cg-toolkit">CG Toolkit</a> runtime.
+				Created a C++ test harness using OpenGL and DirectX 9 that ran CG and
+				CGFX files to measure the performance of the CG runtime libraries.
+				Included Python reporting capabilities which created gnuplot files to
+				measure and compare performance results
+			</div>
+		  	<div class="primary_skills_title">Primary Skills Applied</div>
+			<div class="primary_skills">
+				<ul>
+					<li>C/C++</li>
+					<li>Writing Shader Test Cases (Cg)</li>
+					<li>OpenGL</li>
+					<li>DirectX</li>
+					<li>Python</li>
+				</ul>	
+			</div>	
+		</div>
+
+		<div class="job">
+			<span class="title">Teaching Assistant</span>
+			<span class="date">Sept 2007 - May 2007</span>
+			<span class="company"><a href="http://www.utah.edu">University Of Utah</a></span>
+			<span class="city">Salt Lake City, UT</span>
+			<div class="description">
+				Worked as a teaching assitant at the <a
+				href="http://www.cs.utah.edu">School of Computing</a> at the University
+				of Utah. I was a TA for for CS5610/CS6610 (OpenGL)  under <a
+				href="http://www.cs.utah.edu/~hansen">Dr. Charles Hansen</a> and CS 2420
+				(Computer Science II - Java) under <a
+				href="http://www.eng.utah.edu/~pajensen">Dr. Peter Jensen</a>. I was
+				responsible for helping students with assignments during office hours as
+				well as lecturing during discussion sections.
+			</div>
+			<div class="primary_skills_title">Primary Skills Applied</div>
+			<div class="primary_skills">
+				<ul>
+					<li>Teaching & Assisting Students</li>
+					<li>Grading</li>
+					<li>Java</li>
+					<li>OpenGL</li>
+				</ul>	
+			</div>	
+		</div>
+
+		<div class="job">
+			<span class="title">Software Engineer</span>
+			<span class="date">Apr 2005 - Aug 2007</span>
+			<span class="company"><a href="http://solutions.3m.com/wps/portal/3M/en_US/3M_Health_Information_Systems/HIS">3M Health Information Systems</a></span>
+			<span class="city">Salt Lake City, UT</span>
+			<div class="description">
+				Worked for the Tools and Technology group extending and maintaining a
+				domain specific language, called Domain, used for medical grouping and
+				billing. The group was reponsible for compilers, debuggers, IDEs, and
+				code generators for C, Java, Basic Assembler, and our own back end using
+				a format called Knowledge Bases. I was reponsible for the Java and C
+				runtimes as well as for creating a nightly build/test solution for
+				programs using said language.
+			</div>
+			<div class="primary_skills_title">Primary Skills Applied</div>
+			<div class="primary_skills">
+				<ul>
+					<li>C</li>
+					<li>Java</li>
+					<li>Windows Batch Programming</li>
+				</ul>	
+			</div>	
+		</div>
+
+		<div class="job">
+			<span class="title">Software Quality Assurance Engineer</span>
+			<span class="date">Feb 2003 - Apr 2005</span>
+			<span class="company"><a href="http://solutions.3m.com/wps/portal/3M/en_US/3M_Health_Information_Systems/HIS">3M Health Information Systems</a></span>
+			<span class="city">Wallingford, CT</span>
+			<div class="description">
+				Worked as a test engineer on International medical Coding and Grouping
+				software.  I was responsible for the creation and running of manual as
+				well as automated tests for COM+ based software in multiple languages.
+				While there, I participated on a team to define database repositories of
+				testing data for international and domestic medical records.
+			</div>
+			<div class="primary_skills_title">Primary Skills Applied</div>
+			<div class="primary_skills">
+				<ul>
+					<li>Program Testing</li>
+					<li>Automated test creation in differing languages (C/C++, Visual Basic, Awk, MS-SQL)</li>
+				</ul>	
+			</div>	
+		</div>
+
+		<div class="job">
+			<span class="title">Programmer</span>
+			<span class="date">Jan 2002 - Feb 2003</span>
+			<span class="company">Softspin</span>
+			<span class="city">Manhattan Beach, CA</span>
+			<div class="description">
+				Worked as a programmer porting a set development tools from Windows to
+				Linux. These tools consisted of a pre-processor for a converting an ADA
+				like language into standard C as well as a personal make tool and shell.
+				All programs were written in standard C.
+			</div>
+			<div class="primary_skills_title">Primary Skills Applied</div>
+			<div class="primary_skills">
+				<ul>
+					<li>C Programming</li>
+					<li>Linux</li>
+				</ul>	
+			</div>	
+		</div>
+
+		<div class="job">
+			<span class="title">Programmer</span>
+			<span class="date">May 2001 - Aug 2001</span>
+			<span class="company"><a href="http://www.boomerang.com">Boomerang.com</a></span>
+			<span class="city">Palo Alta, CA</span>
+			<div class="description">
+				Worked as a programmer to automate e-mail blast delivery processes using
+				C++ and Visual Basic. Created e-mail scheduling programs as well as
+				a program to automatically combine user data with form emails and insert
+				them into an automated system based on SQL query statements.
+			</div>
+			<div class="primary_skills_title">Primary Skills Applied</div>
+			<div class="primary_skills">
+				<ul>
+					<li>Database programming in Visual Basic</li>
+					<li>C++</li>
+					<li>MySQL</li>
+				</ul>	
+			</div>	
+		</div>
+
+		<div class="job">
+			<span class="title">Quality Assurance</span>
+			<span class="date">Jan 2001 - May 2001</span>
+			<span class="company"><a href="http://www.es.com">Evans &amp; Sutherland</a></span>
+			<span class="city">Salt Lake City, UT</span>
+			<div class="description">
+				Worked as a program tester for the Ensemble&#153; hard real-time
+				simulation system at Evans and Sutherland. Duties included installing
+				the program on multiple machines, running through the automated test
+				program (ATP)  and submitting bug reports.
+			</div>
+			<div class="primary_skills_title">Primary Skills Applied</div>
+			<div class="primary_skills">
+				<ul>
+					<li>Program Testing</li>
+				</ul>	
+			</div>	
+		</div>
+
+		<div class="job">
+			<span class="title">Consultant/Web Programmer</span>
+			<span class="date">Aug 2000 - Sep 2000</span>
+			<span class="company"><a href="http://www.boomerang.com">Boomerang.com</a></span>
+			<span class="city">Palo Alto, CA</span>
+			<div class="description">
+				Worked as a consultant doing on-the-spot web pages and small JavaScript
+				programs dealing with fax and e-mail broadcasting. Web pages were done
+				using Macromedia Dreamweaver and Fireworks, JavaScript was also used.
+			</div>
+			<div class="primary_skills_title">Primary Skills Applied</div>
+			<div class="primary_skills">
+				<ul>
+					<li>HTML document creation</li>
+					<li>JavaScript programming</li>
+				</ul>	
+			</div>	
+		</div>
+
+		<div class="job">
+			<span class="title">Software Developer</span>
+			<span class="date">June 1997 - June 1998</span>
+			<span class="company">Softspin</span>
+			<span class="city">Manhattan Beach, CA</span>
+			<div class="description">
+				Programmed the SIRS Navigator, a Windows desktop application
+				(created in Visual Basic) used by clients to browse the results of a
+				compensation survey, view job data graphically, and generate
+				job-pricing reports to support compensation planning and decision
+				making.
+			</div>
+			<div class="primary_skills_title">Primary Skills Applied</div>
+			<div class="primary_skills">
+				<ul>
+					<li>Database Programming in Visual Basic and Access</li>
+				</ul>	
+			</div>	
+		</div>
+
+		<div class="sectionTitle">Education</div>
+
+		<div class="degree">
+			<span class="institution">University of Utah <i>(Expected Graduation Summer 2012)</i></span>
+			<span class="location">Salt Lake City, UT</span>
+			<span class="title">PhD in Computing: Graphics and Visualzation</span>
+			<span class="gpa">GPA 3.9</span>
+		</div>
+
+		<div class="degree">
+			<span class="institution">University of Southern California <i>(Graduated December 2007)</i></span>
+			<span class="location">Los Angeles, CA</span>
+			<span class="title">Masters of Science in Computer Science</span>
+			<span class="gpa">GPA 3.95</span>
+		</div>
+
+		<div class="degree">
+			<span class="institution">University of Utah <i>(Graduated May 2002)</i></span>
+			<span class="location">Salt Lake City, UT</span>
+			<span class="title">Bahcelors of Science in Computer Science</span>
+			<span class="gpa">GPA 3.4</span>
+		</div>
+	</div>
+
+
+		<div class="contentText"></div>  
+		</div>
+		<div id="footer">Original theme by <a href="http://www.bryantsmith.com">bryant smith</a> 
+		</div>
+	</body>
+</html>
+
+

@@ -1,0 +1,115 @@
+.resume
+{
+margin-right:20px;
+margin-left:40px;
+width:700px;
+font-size:13px;
+color:#030712;
+}
+
+.sectionTitle
+{
+	font-size:24px;
+	font-weight:bolder;
+	margin-top:20px;
+}
+
+.job
+{
+	margin-top:20px;
+	padding-top:20px;
+}
+
+.job .title
+{
+	float:left;
+	font-size: 15px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+.job .date
+{
+	float:right;
+	font-size: 15px;
+	font-variant: small-caps;
+	font-weight: bold;
+}	
+
+.job .company
+{
+	float:left;
+	clear:left;
+	font-size: 13px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+.job .city
+{
+	padding-top:-10px;
+	float:right;
+	clear:right;
+	font-size: 13px;
+	font-variant: small-caps;
+	font-weight: bold;
+}	
+
+.job .description 
+{
+	clear:left;
+	font-size: 12px;
+	margin-top:10px;
+	padding-top:10px;
+	text-align:justify;
+}
+
+.job .primary_skills_title
+{
+	margin-top:10px;
+	font-size: 13px;
+	font-style: italic;
+}	
+
+.job .primary_skills
+{
+	margin-top:10px;
+	font-size: 11px;
+}	
+
+.degree
+{
+	clear:both;
+	margin-top:10px;
+	padding-top:10px;
+
+}
+
+.degree .institution
+{
+	font-size: 13px;
+	font-weight: bold;
+	float:left;
+}
+
+.degree .location
+{
+	font-size: 11px;
+	float:right;
+}
+
+.degree .title
+{
+	margin-top:-1px;
+	width: 350px;
+	float:left;
+	clear:left;
+	font-size: 11px;
+}
+
+.degree .gpa
+{
+	clear:right;
+	float:right;
+	font-size: 11px;
+}

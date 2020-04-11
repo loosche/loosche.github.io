@@ -1,0 +1,17 @@
+@article{journals/cgf/BrouillatBLHB09,
+  author = {Jonathan Brouillat and Christian Bouville and Brad Loos and Charles D. Hansen and Kadi Bouatouch},
+  interhash = {947b46f431b75502b60a101d2608929e},
+  intrahash = {f838ba8bcfdf5df5fb4edea62aabcd28},
+  journal = {Comput. Graph. Forum},
+  number = 8,
+  pages = {2315-2329},
+  title = {A Bayesian Monte Carlo Approach to Global Illumination.},
+  url = {http://dblp.uni-trier.de/db/journals/cgf/cgf28.html#BrouillatBLHB09},
+  volume = 28,
+  year = 2009,
+  keywords = {dblp},
+  ee = {http://dx.doi.org/10.1111/j.1467-8659.2009.01537.x},
+  description = {dblp},
+  biburl = {http://www.bibsonomy.org/bibtex/2f838ba8bcfdf5df5fb4edea62aabcd28/dblp},
+  date = {2009-12-15}
+}

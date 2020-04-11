@@ -1,0 +1,117 @@
+<!--
+Design by Bryant Smith
+http://www.bryantsmith.com
+http://www.aszx.net
+email: templates [-at-] bryantsmith [-dot-] com
+Released under Creative Commons Attribution 2.5 Generic.  In other words, do with it what you please; but please leave the link if you'd be so kind :)
+
+Name       : A Farewell to Colors
+Description: One column, with top naviagation
+Version    : 1.0
+Released   : 20081230
+-->
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<base href="file:///C:/Users/loos/Desktop/website/" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/afarewelltocolor.css" />
+		<link rel="stylesheet" type="text/css" href="css/resume.css" />
+		<title>Bradford James Loos</title>
+	</head>
+
+	<body>
+		<div id="page">
+
+		<div id="header">
+			<h1>Bradford J. Loos</h1>
+			<h2>Computer Graphics and Visualization PhD</h2>
+			<div id="contact">
+			</div>
+		</div>
+
+		<div id="bar">
+			<div class="link"><a href="index.shtml">publications</a></div>
+			<div class="link"><a href="resume/resume.shtml">resume</a></div>
+			<div class="contactLinks">
+				<img src="images/aim.png" title="bradfordjloos on AIM"/>
+				<img src="images/msn.png" title="bradfordjamesloos on MSN"/>
+				<img src="images/yahoo.png" title="bradfordjamesloos on Yahoo"/>
+				<img src="images/gtalk.png" title="bradfordjamesloos on GTalk"/>
+				<img src="images/twitter.png" title="loosche"/>
+			</div>
+		</div>
+
+
+	<div class="individualPublication">
+		<h1>Delta Radiance Transfer</h1>
+
+		<br/>
+
+		<div class="teaser" align="center">
+			<div class="figure">	
+				<a href="publications/drt/teaserMRTBig.png">
+					<img src="publications/drt/teaserMRTSmall.png" />
+				</a>
+				<p>Modular Radiance Transfer (Indirect: 1.7ms)</p>
+			</div>
+			<div class="figure">
+				<a href="publications/drt/teaserDRTBig.png">
+					<img src="publications/drt/teaserDRTSmall.png" />
+				</a>
+				<p>Delta Radiance Transfer<br/>(Indirect: 1.25ms)</p>
+			</div>
+			<div class="figure">
+				<a href="publications/drt/teaserReferenceBig.png">
+					<img src="publications/drt/teaserReferenceSmall.png" />
+				</a>
+				<p>Path Traced Ground Truth</p>
+			</div>
+		</div>
+
+		<br/>
+
+		<div class="links">
+			<a href="publications/drt/drt.pdf"><span class="pdfLink">Paper</span></a> (4.6 MB) &#149;
+			<a href="publications/drt/drt.mp4"><span class="vlcLink">Movie</span></a> (26 MB) &#149;
+			<a href="http://youtu.be/PD2MMKqXj-8"><span class="youtubeLink">Youtube</span></a>  &#149;
+			<span class="popupLink" onClick="javascript:window.open('/~loos/publications/drt/drt.txt','BibTex','width=1000,height=170')">BibTex</span>
+		</div>
+
+		<br/>
+
+		<h4>Abstract:</h4>
+		<p class="abstract">
+			Modular Radiance Transfer (MRT) is a recent technique for computing
+			approximate direct-to-indirect transport. Scenes are dynamically
+			constructed by warping and connecting simple shapes and compact transport
+			operators are only precomputed on these simple shapes. MRT ignores
+			fine-scale transport from <i>clutter</i> objects inside the scene, and
+			computes light transport with reduced dimensional operators, which allows
+			extremely high performance but can lead to significant approximation
+			error. We present several techniques to alleviate this limitation,
+			allowing the light transport from clutter in a scene to be accounted for.
+			We derive additional low-rank delta operators to compensate for these
+			missing light transport paths by modeling indirect shadows and
+			interreflections from, and onto, clutter objects in the scene. We retain
+			MRT's scene-independent precomputation and augment its scene-dependent
+			initialization with clutter transport generation, resulting in increased
+			accuracy without a performance penalty. Our implementation is simple,
+			requiring a few small matrix-vector multiplications that generate a delta
+			lightmap added to MRT's output, and does not adversely affect the
+			performance benefits of the overall algorithm.
+		</p>
+
+	</div>
+
+
+		<div class="contentText"></div>  
+		</div>
+		<div id="footer">Original theme by <a href="http://www.bryantsmith.com">bryant smith</a> 
+		</div>
+	</body>
+</html>
+
+

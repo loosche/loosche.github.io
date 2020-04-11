@@ -1,0 +1,112 @@
+<!--
+Design by Bryant Smith
+http://www.bryantsmith.com
+http://www.aszx.net
+email: templates [-at-] bryantsmith [-dot-] com
+Released under Creative Commons Attribution 2.5 Generic.  In other words, do with it what you please; but please leave the link if you'd be so kind :)
+
+Name       : A Farewell to Colors
+Description: One column, with top naviagation
+Version    : 1.0
+Released   : 20081230
+-->
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<base href="file:///C:/Users/loos/Desktop/website/" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/afarewelltocolor.css" />
+		<link rel="stylesheet" type="text/css" href="css/resume.css" />
+		<title>Bradford James Loos</title>
+	</head>
+
+	<body>
+		<div id="page">
+
+		<div id="header">
+			<h1>Bradford J. Loos</h1>
+			<h2>Computer Graphics and Visualization PhD</h2>
+			<div id="contact">
+			</div>
+		</div>
+
+		<div id="bar">
+			<div class="link"><a href="index.shtml">publications</a></div>
+			<div class="link"><a href="resume/resume.shtml">resume</a></div>
+			<div class="contactLinks">
+				<img src="images/aim.png" title="bradfordjloos on AIM"/>
+				<img src="images/msn.png" title="bradfordjamesloos on MSN"/>
+				<img src="images/yahoo.png" title="bradfordjamesloos on Yahoo"/>
+				<img src="images/gtalk.png" title="bradfordjamesloos on GTalk"/>
+				<img src="images/twitter.png" title="loosche"/>
+			</div>
+		</div>
+
+
+	<div class="individualPublication">
+		<h1>Volumetric Obscurance</h1>
+
+		<div class="teaser" align="center">
+			<div class="figure">
+				<a href="publications/vo/TeaserCathedralPoints.png">
+					<img src="publications/vo/TeaserCathedralPoints-200.png"/>
+				</a>
+				<p>33 Point Samples - 156 FPS</p>
+			</div>
+
+			<div class="figure">
+			<a href="publications/vo/TeaserCathedralLines.png">
+				<img src="publications/vo/TeaserCathedralLines-200.png"/>
+			</a>
+			<p>9 Line Samples - 210 FPS</p>
+			</div>
+
+			<div class="figure">
+				<a href="publications/vo/TeaserCathedralArea.png">
+					<img src="publications/vo/TeaserCathedralArea-200.png"/>
+				</a>
+				<p>1 Area Sample - 240 FPS</p>
+			</div>
+		</div>
+
+		<div class="links">
+			<a href="publications/vo/vo.pdf"><span class="pdfLink">Paper</span></a> (5.1 MB) &#149;
+			<a href="publications/vo/vo.mov"><span class="quicktimeLink">Movie</span></a> (80 MB) &#149;
+			<a href="http://www.youtube.com/watch?v=sP48xQhMeJA"><span class="youtubeLink">Youtube</span></a> &#149;
+			<a href="publications/vo/vo-presentation.zip"><span class="pptLink">PPT</span></a> (25 MB) &#149;
+			<span class="popupLink" onClick="javascript:window.open('/~loos/publications/vo/vo.txt','BibTex','width=800,height=110')">BibTex</span>
+
+			<br/><br/>
+
+			<i>NVidia Best Paper Presentation Award</i>
+		</div>
+
+		<h4>Abstract:</h4>
+		<div class="abstract">
+			Obscurance and Ambient Occlusion (AO) are popular techniques in both film
+			and games that model how ambient light is shadowed.  While it is largely a
+			solved problem for static scenes, for dynamic scenes it is still difficult to
+			compute at interactive rates. Recent attempts to compute AO in screen space for
+			dynamic scenes either have poor performance or suffer from under-sampling
+			problems.  We formulate the problem as a 3D volumetric integral, which maps
+			more naturally to graphics hardware. This integral can be solved using line
+			samples to improve the under-sampling problems that plague other techniques.
+			Following the idea of line integrals to its logical conclusion, we show results
+			using area samples that use a simple statistical model of the depth buffer that
+			allows us to use a single sample. We also discuss strategies for generating
+			point, line, and area sample patterns along with ways to incorporate the
+			surface normal into the volume obscurance calculation.
+		</div>
+	</div>
+
+
+		<div class="contentText"></div>  
+		</div>
+		<div id="footer">Original theme by <a href="http://www.bryantsmith.com">bryant smith</a> 
+		</div>
+	</body>
+</html>
+
+

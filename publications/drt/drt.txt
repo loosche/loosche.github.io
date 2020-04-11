@@ -1,0 +1,10 @@
+@inproceedings{Loos2012,
+ author = {Loos, Bradford James Nowrouzezahrai, Derek Jarosz, Wojciech Sloan, Peter-Pike},
+ title = {Delta Radiance Transfer},
+ booktitle = {ACM Siggraph Symposium on Interactive 3D Graphics and Games},
+ year = {2012},
+ location = {Costa Mesa, CA},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+

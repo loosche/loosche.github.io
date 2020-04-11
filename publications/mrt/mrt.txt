@@ -1,0 +1,10 @@
+@inproceedings{Loos2011,
+ author = {Loos, Bradford James Antani, Lakulish Mitchell, Kenny Nowrouzezahrai, Derek Jarosz, Wojciech Sloan, Peter-Pike},
+ title = {Modular Radiance Transfer},
+ booktitle = {Siggraph Asia},
+ year = {2011},
+ location = {Hong Kong, China},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+

@@ -1,0 +1,13 @@
+@inproceedings{1730829,
+ author = {Loos, Bradford James and Sloan, Peter-Pike},
+ title = {Volumetric obscurance},
+ booktitle = {I3D '10: Proceedings of the 2010 ACM SIGGRAPH symposium on Interactive 3D Graphics and Games},
+ year = {2010},
+ isbn = {978-1-60558-939-8},
+ pages = {151--156},
+ location = {Washington, D.C.},
+ doi = {http://doi.acm.org/10.1145/1730804.1730829},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+
