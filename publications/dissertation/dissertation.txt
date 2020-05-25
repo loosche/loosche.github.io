@@ -1,0 +1,9 @@
+@phdthesis{Loos2014,
+  author       = {Bradford J. Loos}, 
+  title        = {Modular Radiance Transfer},
+  school       = {School of Computing, University of Utah},
+  year         = 2014,
+  address      = {50 S. Central Campus Drive Room 3190, Salt Lake City, UT, 84112},
+  month        = 11
+}
+

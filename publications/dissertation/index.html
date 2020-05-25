@@ -1,0 +1,114 @@
+<!--
+Design by Bryant Smith
+http://www.bryantsmith.com
+http://www.aszx.net
+email: templates [-at-] bryantsmith [-dot-] com
+Released under Creative Commons Attribution 2.5 Generic.  In other words, do with it what you please; but please leave the link if you'd be so kind :)
+
+Name       : A Farewell to Colors
+Description: One column, with top naviagation
+Version    : 1.0
+Released   : 20081230
+-->
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<script type="text/javascript" src="../../code/head.js"></script>
+	</head>
+
+	<body>
+		<div id="page">
+
+		<div id="header"></div>
+
+		<div id="bar"></div>
+
+	<div class="individualPublication">
+		<h1>Dissertation: Modular Radiance Transfer</h1>
+
+		<br/>
+
+		<div class="teaser" align="center">
+			<a href="publications/dissertation/dissertation.png">
+				<img width=100% src="publications/dissertation/dissertation.png"/>
+			</a>
+		</div>
+
+		<br/>
+
+		<div class="links">
+			<a href="publications/dissertation/dissertation.pdf"><span class="pdfLink">Dissertation</span></a> (33.2 MB) &#149;
+			<a href="publications/dissertation/dissertation.zip"><span class="pptLink">Defense</span></a> (25.4 MB) &#149;
+			<span class="popupLink" onClick="javascript:window.open('publications/dissertation/dissertation.txt','BibTex','width=1000,height=170')">BibTex</span>
+		</div>
+
+		<h4>Abstract:</h4>
+		<p class="abstract">
+			Indirect illumination is a highly desirable feature
+			of realism in computer generated imagery. However, its global nature
+			makes it difficult to compute in real-time. Despite the difficulty,
+			many games are currently attempting to produce global illumination
+			solutions using varying techniques. Most are simple techniques, unlike
+			the fully dynamic systems talked about in academia. Games generally use
+			precomputed global illumination stored in light maps (otherwise known
+			as static baked global lighting) or ambient occlusion as well as
+			placing nonshadowing static lights to fill in areas of shadow.
+			<br/><br/>
+			In live-action films, reflectors and bounce cards
+			are used to reflect additional light back into the scene. These planes
+			and simple shapes only approximate indirect light from geometry in the
+			real-world, but offer a high level of control that allow directors of
+			photography to produce desired results. In digital film production,
+			simple-shaped lights are commonly used to allow artists to quickly
+			iterate and achieve a desired look. The ease-of-use and controllability
+			of these approximations outweighs their physically incorrect
+			nature.
+			<br/><br/>
+			We believe that by following this insight we have
+			created a new, simple, global illumination method that could be applied
+			to current games, where global illumination is to be decomposed and
+			calculated on simple shapes and then reconstructed to generate pleasing
+			visual results.  We have developed a technique that creates a set of
+			bases in which we calculate indirect lighting. Our approach is very
+			efficient and uses very little data and a quick, one-time,
+			scene-independent precomputation step. It also allows real-time
+			computation of approximate indirect light and is designed with rapid
+			iteration of light design in mind. We precompute light transport
+			operators (LTOs) for a handful of simple canonical “shapes,” then
+			interactively warp and combine these shapes, along with their LTOs, to
+			more complex geometry. These shape proxies are used to model
+			direct-to-indirect transport, which is then applied as a light map to
+			the actual scene geometry. The flow of indirect light between shapes is
+			modeled with lightfields, and all computations are performed in very
+			low-dimensional subspaces (Chapter 3: Modular Radiance Transfer). We
+			generate another set of LTOs to capture the finer details onto, off of,
+			and blocked by objects within our dictionary (Chapter 5: Delta Radiance
+			Transfer). To improve the visual results of these low-frequency
+			calculations we also introduce a novel screen space ambient occlusion
+			method called Volumetric Obscurance (Chapter 6) that, when paired with
+			MRT and DRT, generates visually plausible, real-time (on the order of
+			milliseconds) indirect illumination.
+			<br/><br/>
+			Modular Radiance Transfer (MRT), Delta Radiance
+			Transfer (DRT), and Volumetric Obscurance (VO) result in plausible,
+			dynamic global-illumination effects, rendering at high frame rates with
+			low memory overhead. Our methods have been shown to scale from high-end
+			to mobile platforms and, like precomputed radiance transfer (PRT),
+			provide smooth results that respond to dynamic changes in lighting.
+		</p>
+
+	</div>
+
+
+		<div class="contentText"></div>  
+		</div>
+		<div id="footer"></div>
+
+		<script type="text/javascript" src="code/includes.js"></script>
+
+	</body>
+</html>
+
+
